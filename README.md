@@ -2,7 +2,7 @@
 
 **Short Summary (<150 chars):**
 
-AtmoSieve tokenizes simulated carbon capture data into verifiable ACC tokens on Polkadot Asset Hub, demonstrating transparent carbon credit creation.
+AtmoSieve is a machine Verifiable carbon capture data into verifiable tokens built with Polkadot, demonstrating transparent carbon credit creation.
 
 ---
 
@@ -17,6 +17,15 @@ AtmoSieve tokenizes simulated carbon capture data into verifiable ACC tokens on 
 ## Screenshots
 
 [ **Placeholder for Key Screenshots (e.g., Dashboard Live Data, Purchase Page Token Info, Purchase Confirmation, Certificate Page) ** ]
+![image](https://github.com/user-attachments/assets/d4cd3e2f-8e7e-4315-b496-6c55ae76d752)
+![image](https://github.com/user-attachments/assets/381aa7d5-0a4e-4d78-84d8-d05da52f8564)
+![image](https://github.com/user-attachments/assets/739bb4b8-df28-4e29-ba5f-7b90077e178c)
+![image](https://github.com/user-attachments/assets/230b084e-d8bf-436c-ab29-0251ae5364f3)
+![image](https://github.com/user-attachments/assets/daa0abd0-c38c-4c25-86ca-4f723bfda409)
+![image](https://github.com/user-attachments/assets/10cf8a0b-3282-4e3c-9c2d-df15109b6ad2)
+
+
+
 
 ---
 
