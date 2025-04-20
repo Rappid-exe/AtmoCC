@@ -68,6 +68,10 @@ The `CarbonCreditToken` smart contract, which governs the ACC tokens, is deploye
 
 ## Technical Description
 
+# Tech Screen shots
+![image](https://github.com/user-attachments/assets/48ddfab9-ef25-4347-90da-48a85c5451e3)
+
+
 ### Technology Stack
 
 *   **Smart Contract:**
