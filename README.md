@@ -70,7 +70,7 @@ The `CarbonCreditToken` smart contract, which governs the ACC tokens, is deploye
 
 # Tech Screen shots
 ![image](https://github.com/user-attachments/assets/48ddfab9-ef25-4347-90da-48a85c5451e3)
-
+- CarbonAPI backend that simulates carbon capture systems as well as a python web3 minting process that connects with the smartContract
 
 ### Technology Stack
 
