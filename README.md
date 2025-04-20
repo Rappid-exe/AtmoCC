@@ -1,5 +1,5 @@
 # AtmoSieve Carbon Credits
-Powered by ![image](https://github.com/user-attachments/assets/554ba113-6318-4a71-8346-61b0bcd5d10c)
+
 
 **Short Summary (<150 chars):**
 
@@ -229,3 +229,7 @@ See the `LICENSE` file for details. *(Remember to add a LICENSE file to the repo
 ## Team / Contact
 Umair Ismati - https://x.com/_RSXD
 Atmosieve Technologies: https://atmosieve.com/
+
+Project Powered by:
+![image](https://github.com/user-attachments/assets/03a4d100-8cdd-4d7c-8bb8-07a936e0d7f1)
+
