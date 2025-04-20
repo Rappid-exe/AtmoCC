@@ -39,7 +39,7 @@ The traditional carbon credit market often struggles with transparency and verif
 
 AtmoSieve provides a proof-of-concept system showcasing how blockchain can enhance the transparency and trustworthiness of carbon credit creation. The system features:
 
-1.  **Simulated Carbon Capture:** A backend API (`carbonAPI`) simulates data output from multiple distinct carbon capture systems (System Alpha, Beta, Gamma).
+1.  **Carbon Capture:** A backend API (`carbonAPI`) (simulates) data output from multiple distinct carbon capture systems that will be provided by AtmoSieve (System Alpha, Beta, Gamma) each having unique identifier.
 2.  **On-Chain Tokenization:** A backend process, triggered by a purchase action on the frontend, uses a secure owner key to interact with a smart contract deployed on the Polkadot Asset Hub. It mints unique "AtmoSieve Carbon Credit" (ACC) tokens corresponding to the simulated captured amount.
 3.  **Designated Recipient:** For this corporate showcase, minted tokens are sent to a pre-defined public address (`0xF9755E5682fd9492A7ee19d852a8d6e6661C7663`), abstracting the wallet interaction away from the purchasing user.
 4.  **Frontend Dashboard:** A web interface allows users (e.g., corporate buyers) to monitor the simulated capture data from the API, view overall token information (total supply) fetched directly from the blockchain, and initiate the purchase/minting process.
@@ -221,5 +221,5 @@ See the `LICENSE` file for details. *(Remember to add a LICENSE file to the repo
 ---
 
 ## Team / Contact
-
-[ **Placeholder for Team Member Names/Contact Info** ]
+Umair Ismati - https://x.com/_RSXD
+Atmosieve Technologies: https://atmosieve.com/
