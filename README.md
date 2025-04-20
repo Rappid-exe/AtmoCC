@@ -3,6 +3,7 @@
 **Short Summary (<150 chars):**
 
 AtmoSieve is a machine Verifiable carbon capture data into verifiable tokens built with Polkadot, demonstrating transparent carbon credit creation.
+This project is a currently the Crypto Prototype for the RnD side of Atmosieve @ https://atmosieve.com/
 
 ---
 
