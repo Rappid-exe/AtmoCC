@@ -1,4 +1,5 @@
 # AtmoSieve Carbon Credits
+Powered by ![image](https://github.com/user-attachments/assets/554ba113-6318-4a71-8346-61b0bcd5d10c)
 
 **Short Summary (<150 chars):**
 
