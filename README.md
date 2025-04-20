@@ -7,6 +7,9 @@ AtmoSieve is a machine Verifiable carbon capture data into verifiable tokens bui
 This project is a currently the Crypto Prototype for the RnD side of Atmosieve @ https://atmosieve.com/
 
 ---
+# Concept Map:
+![image](https://github.com/user-attachments/assets/ec02fb07-6d54-42fd-a3c1-7988413d70a3)
+
 
 ## Demo Videos
 
