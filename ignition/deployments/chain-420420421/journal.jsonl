@@ -1,0 +1,4 @@
+
+{"chainId":420420421,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"MinimalModule#Minimal","constructorArgs":[],"contractName":"Minimal","dependencies":[],"from":"0xf3f1185037cf521916b30e81e6168821a87a4d4f","futureId":"MinimalModule#Minimal","futureType":"NAMED_ARTIFACT_CONTRACT_DEPLOYMENT","libraries":{},"strategy":"basic","strategyConfig":{},"type":"DEPLOYMENT_EXECUTION_STATE_INITIALIZE","value":{"_kind":"bigint","value":"0"}}
+{"futureId":"MinimalModule#Minimal","networkInteraction":{"data":"0x6080604052348015600f57600080fd5b50607d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806306661abd14602d575b600080fd5b603560005481565b60405190815260200160405180910390f3fea26469706673582212209041d266b893f8312ba0d323f2777982cc8818c51f0d3bb604c2a55f1ee7c6c964736f6c634300081c0033","id":1,"type":"ONCHAIN_INTERACTION","value":{"_kind":"bigint","value":"0"}},"type":"NETWORK_INTERACTION_REQUEST"}

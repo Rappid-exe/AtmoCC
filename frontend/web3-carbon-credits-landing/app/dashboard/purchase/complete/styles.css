@@ -1,0 +1,318 @@
+/* Confetti Animation */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transform: translateY(0) rotate(0);
+  animation: confetti-fall 3s ease-out forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    opacity: 1;
+    transform: translateY(-100vh) rotate(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
+
+/* Certificate Styles */
+.certificate-container {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.certificate-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/carbon-fiber-bg.png");
+  background-size: 200px;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.certificate-content {
+  position: relative;
+  padding: 3rem;
+  color: white;
+  z-index: 1;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(20, 20, 20, 0.8) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.certificate-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.certificate-header::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 255, 163, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.certificate-logo {
+  margin-bottom: 1.5rem;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.logo-subtext {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.certificate-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #ffffff 0%, #00ffa3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.certificate-subtitle {
+  font-size: 1rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.certificate-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.certificate-statement {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.certificate-statement h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+
+.certificate-statement p {
+  opacity: 0.8;
+  margin: 0.5rem 0;
+}
+
+.company-address {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  max-width: 80%;
+  margin: 0.5rem auto !important;
+  line-height: 1.4;
+}
+
+.certificate-amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: #00ffa3;
+  text-shadow: 0 0 10px rgba(0, 255, 163, 0.5);
+}
+
+.certificate-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.detail-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+.detail-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.detail-subvalue {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.certificate-verification {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.verification-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.signature-line {
+  width: 150px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 0.5rem;
+}
+
+.signature-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.signature-title {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.verification-seal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Blockchain Verification Seal */
+.blockchain-seal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 255, 163, 0.1);
+  border: 1px solid rgba(0, 255, 163, 0.3);
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  position: relative;
+}
+
+.blockchain-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.icon-shield {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  color: rgba(0, 255, 163, 0.8);
+  stroke-width: 1.5;
+}
+
+.icon-lock {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  stroke-width: 2;
+}
+
+.blockchain-text {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgba(0, 255, 163, 0.8);
+}
+
+.blockchain-hash {
+  font-size: 0.6rem;
+  font-family: monospace;
+  opacity: 0.7;
+  margin-top: 0.3rem;
+}
+
+.certificate-footer {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .certificate-content {
+    padding: 2rem;
+  }
+
+  .certificate-details {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-verification {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .verification-signature {
+    align-items: center;
+  }
+}
+
+@media print {
+  header,
+  .flex.gap-4.mt-8 {
+    display: none;
+  }
+
+  .certificate-container {
+    box-shadow: none !important;
+    border: 1px solid #000;
+  }
+}
