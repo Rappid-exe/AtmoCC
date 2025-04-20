@@ -8,7 +8,7 @@ AtmoSieve is a machine Verifiable carbon capture data into verifiable tokens bui
 
 ## Demo Video
 
-[ **Placeholder for Demo Video Link/Embed** ]
+https://www.loom.com/share/437d375e9eec438aa0f3f78af600e327?sid=d6cc0a46-f929-4f0e-8ac2-28fb9717889b
 
 *(**Required:** Include a video demonstrating the setup, running the API and frontend, navigating the dashboard, showing live data, initiating a purchase, showing backend logs, showing the transaction/token on a block explorer, and showing the certificate page).*
 
